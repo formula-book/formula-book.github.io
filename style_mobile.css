@@ -119,6 +119,7 @@ p.register{
     border-color:white;
     font-size:25px;
     margin-top:35px;
+    color: white;
 }
 ::placeholder{
     color:white;
@@ -138,4 +139,11 @@ p.register{
     position:relative;
     left:40%;
     top:25px;
+}
+.profile_validate{
+    position: absolute;
+    width: 40%;
+    height:80%;
+    top:12.5%;
+    left:30%;
 }

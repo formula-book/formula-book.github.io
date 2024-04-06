@@ -105,3 +105,38 @@ table, th, td {
     top:12.5%;
     left:30%;
 }
+p.register{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+.inbox{
+    width:97%;
+    background-color:rgba(0, 0, 0, 0);
+    border-style: none;
+    border-bottom-style: groove;
+    height:25px;
+    border-color:white;
+    font-size:25px;
+    margin-top:35px;
+    color: white;
+}
+::placeholder{
+    color:white;
+}
+.registerer{
+    width:97%;
+    height:50px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border-style: none;
+    font-size: 20px;
+}
+.login{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position:relative;
+    left:40%;
+    top:25px;
+}
