@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Book</title>
+    <link rel="icon" href="icon.png"type="image/x-icon">
+    <link rel="stylesheet" href="style.css" class="css" id="style">
+    <script src="main.js"></script>
+</head>
+<body onload="closeNav(); landscape()" class="main">
+    <span onclick="openNav()" id="menu"><b>☰</b></span>
+    <div class="navbar" id="navbar">
+    <div class="nav">
+        <ul class="nav" id="nav">
+          <li class="nav" id="close"><a href="javascript:void(0)" class="closebtn nav" onclick="closeNav()">×</a></li>
+          <li class="nav"><a class="nav" href="index.html">Home</u></a></li>
+          <li class="nav"><a class="nav active" href="math.html">Mathematics</a></li>
+          <li class="nav"><a class="nav" href="physics.html">Physics</a></li>
+          <li class="nav"><a class="nav" href="chemistry.html">Chemistry</a></li>
+          <li class="nav"><a class="nav" href="contact.html">Contact Us</a></li>
+          <li class="nav"><a class="nav" href="about.html">About Us</a></li>
+          <li class="nav"><a class="nav" href="profile.html">My Profile</a></li>
+        </ul>
+    </div>
+    <hr>
+    </div>
+        <i>
+        <br><br><ul class="formula">
+            <li class="formula">Standard form : ax<sup>2</sup> + bx + c = 0</li>
+            <li class="formula">Roots generally denoted by '&alpha;' & '&beta;'</li>
+            <li class="formula">Roots of quadratic equation as per discriminant rule :<br> <img src="quad_formula.png" width="250px" height="100px"></li>
+            <li class="formula">Discriminant : <br> b<sup>2</sup> - 4ac</li>
+            <li class="formula">Nature of roots:
+                <ol>
+                    <li>Real and equal : Discriminant = 0</li>
+                    <li>Real and Unequal : Discriminant &gt; 0</li>
+                    <li>Imaginary : Discriminant &lt; 0</li>
+                    <li>Rational : Discriminant &isin; R</li>
+                    <li>Integral : Discriminant &isin; Z </li>
+                </ol>
+            </li>
+            <li class="formula">Relation between roots and coefficients:
+                <ul>
+                    <li>Quadratic equation:
+                        <ul>
+                            <li>&alpha; + &beta; = <sup>-b</sup>&frasl;<sub>a</sub></li>
+                            <li>&alpha; . &beta; = <sup>c</sup>&frasl;<sub>a</sub></li>
+                        </ul>
+                    </li>
+                    <li>Cubic Equations(ax<sup>3</sup> + bx<sup>2</sup> + cx + d = 0) :
+                        <ul>
+                            <li>&alpha; + &beta; + &gamma; = <sup>-b</sup>&frasl;<sub>a</sub></li>
+                            <li>&alpha; . &beta; + &beta; . &gamma; + &gamma; . &alpha; = <sup>c</sup>&frasl;<sub>a</sub></li>
+                            <li>&alpha; . &beta; . &gamma; = <sup>-d</sup>&frasl;<sub>a</sub></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="formula">Let eq<sup>n</sup> be ax<sup>2</sup> + bx + c & a'x<sup>2</sup> + b'x + c' and &alpha; be the only common root, then:
+                <br> 
+                <p>(ca' - c'a)<sup>2</sup> = (ab' - a'b).(bc' - b'c)</p>
+            </li>
+            <li class="formula">If both root are common then:
+                <br>
+                <p><sup>a</sup>&frasl;<sub>a'</sub> = <sup>b</sup>&frasl;<sub>b'</sub> = <sup>c</sup>&frasl;<sub>c'</sub></p>
+            </li>
+            <li class="formula">Maximum value of quadratic equation:
+                <ul>
+                    <li>if a &gt; 0, is &infin;</li>
+                    <li>if a &lt; 0, is ( <sup>-b</sup>&frasl;<sub>2a</sub> , <sup>-D</sup>&frasl;<sub>4a</sub> )</li>
+                </ul>
+            </li>
+            <li class="formula">Minimum value of quadratic equation:
+                <ul>
+                    <li>if a &lt; 0, is &infin;</li>
+                    <li>if a &gt; 0, is ( <sup>-b</sup>&frasl;<sub>2a</sub> , <sup>-D</sup>&frasl;<sub>4a</sub> )</li>
+                </ul>
+            </li>
+            <li class="formula">Qudratic equation in two varible:
+                <ul>
+                    <li>Standard form : &fnof;(x , y) = ax<sup>2</sup> + by<sup>2</sup> + 2hxy + 2gx + 2fy + c</li>
+                    <li>it may be resolved into two linear factors if, &Delta; = abc + 2fgh - af<sup>2</sup> - bg<sup>2</sup> - ch<sup>2</sup> = 0</li>
+                </ul>
+            </li>
+            <li class="formula">The number of positive roots of equation is equal to the number of sign changes in &fnof;(x), while the number of negative is equal to the number of times the sign changes between terms in &fnof;(-x) </li>
+        </ul>
+    </i>
+</body>
+</html>

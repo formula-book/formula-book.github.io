@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Book</title>
+    <link rel="icon" href="icon.png"type="image/x-icon">
+    <link rel="stylesheet" href="style.css" class="css" id="style">
+    <script src="main.js"></script>
+</head>
+<body onload="closeNav(); landscape()" class="main">
+    <span onclick="openNav()" id="menu"><b>☰</b></span>
+    <div class="navbar" id="navbar">
+    <div class="nav">
+        <ul class="nav" id="nav">
+          <li class="nav" id="close"><a href="javascript:void(0)" class="closebtn nav" onclick="closeNav()">×</a></li>
+          <li class="nav"><a class="nav" href="index.html">Home</u></a></li>
+          <li class="nav"><a class="nav active" href="math.html">Mathematics</a></li>
+          <li class="nav"><a class="nav" href="physics.html">Physics</a></li>
+          <li class="nav"><a class="nav" href="chemistry.html">Chemistry</a></li>
+          <li class="nav"><a class="nav" href="contact.html">Contact Us</a></li>
+          <li class="nav"><a class="nav" href="about.html">About Us</a></li>
+          <li class="nav"><a class="nav" href="profile.html">My Profile</a></li>
+        </ul>
+    </div>
+    <hr>
+    </div>
+        <i>
+        <br><br><ul class="formula">
+            <li class="formula"><details><summary>Arithmetic progression</summary>
+                <ul>
+                    <li>General form : a, a + d , a + 2d ..., where 'a' is the first term and 'd' is the general difference.</li>
+                    <li>n<sup>th</sup> term : a + (n - 1)d</li>
+                    <li>Summation of n terms ( S<sub>n</sub> ) = <sup>n</sup>&frasl;<sub>2</sub> . [2a + (n - 1)d]</li>
+                    <li>Selection of terms:<br>
+                        <ul>
+                            <li>3 terms : (a - d), a, (a + d)</li>
+                            <li>4 terms : (a - 3d), (a - d), (a + d), (a + 3d)</li>
+                            <li>5 terms : (a - 2d), (a - d), a, (a + d), (a + 2d)</li>
+                            <li><b>Odd</b> : Common difference d, <b>Even</b> : Common difference 2d</li>
+                        </ul>
+                    </li>
+                    <li>If a, b, c are in Arithmetic progression, then <b>2b = a + c</b></li>
+                </ul>
+            </details>
+            </li>
+            <li class="formula"><details><summary>Geometric Progression</summary>
+                <ul>
+                    <li>General form :  a, ar<sup>2</sup>, ar<sup>3</sup>.... , where a is first term and r is the general ratio</li>
+                    <li>n<sup>th</sup> term = ar<sup>(n - 1)</sup></li>
+                    <li>Sum of n terms of a G.P. ( S<sub>n</sub> ) : <br><img src="GP_sum_n.png" width="150px" height =100px></li>
+                    <li>Sum of &infin; terms of a G.P. ( S<sub>&infin;</sub> ) : <br><img src="GP_sum_inf.png" width="350px" height =100px></li>
+                    <li>If a, b, c are in G.P., then b<sup>2</sup> = ac</li>
+                    <li>If a, b, c, ... are in G.P. then log a, log b, log c, ... are in A.P.</li>
+                    <li>Selection of terms:<br>
+                        <ul>
+                            <li>3 terms : <sup>a</sup>&frasl;<sub>r</sub>, a, ar</li>
+                            <li>4 terms : <sup>a</sup>&frasl;<sub>r<sup>3</sup></sub>, <sup>a</sup>&frasl;<sub>r</sub>, ar, ar<sup>3</sup></li>
+                            <li>5 terms : <sup>a</sup>&frasl;<sub>r<sup>2</sup></sub>, <sup>a</sup>&frasl;<sub>r</sub>, a, ar, ar<sup>2</sup></li>
+                            <li><b>Odd</b> : Common ratio r, <b>Even</b> : Common ratio r <sup>2</sup>.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </details>
+            </li>
+            <li class="formula"><details><summary>Harmonic Progression</summary>
+                If a, b, c, d, .... are in A.P. <br>
+                Then <sup>1</sup>&frasl;<sub>a</sub> , <sup>1</sup>&frasl;<sub>b</sub> , <sup>1</sup>&frasl;<sub>c</sub> , <sup>1</sup>&frasl;<sub>d</sub> , ...... are in H.P.
+            </details>
+            </li>
+            <li class="formula"><details><summary>Mean</summary>
+                <ol>
+                    <li><details><summary>Arithmetic mean</summary>
+                        <ul>
+                            <li>k<sup>th</sup>Arithmetic mean between a and b : <br><img src="AM-k.png" height="100px" width="1050px"></li>
+                            <li>Sum of n Arithmetic Means between a and b : <br><img src="Sum-AM.png" height="125px" width="200px"></li>
+                        </ul>
+
+                    </details></li>
+                    <li><details><summary>Geometric mean</summary>
+                        <ul>
+                            <li>k<sup>th</sup>Geometric mean between a and b : <br><img src="k-GM.png" height="100px" width="250px"></li>
+                            <li>Product of n Geometric Means between a and b : <br><img src="Product-GM.png" height="125px" width="200px"></li>
+                        </ul>
+
+                    </details></li>
+                    <li><details><summary>Harmonic mean</summary>
+                        <ul>
+                            <li>k<sup>th</sup>Harmonic mean between a and b : <br><img src="k-HM.png" height="100px" width="250px"></li>                        </ul>
+
+                    </details></li>
+                    <li>(G.M.) <sup>2</sup> = (A.M.) . (H.M.)</li>
+                    <li>A.M. &ge; G.M. &ge; H.M.</li>
+                    <li>A.M. = G.M. = H.M., if a = b</li>
+                </ol>
+                
+            </details>
+            </li>
+            <li class="formula"><details><summary>Arithmetico-Geometric Progression</summary>
+                <ul>
+                    <li>General Form : a, (a + d)r, (a + 2d)r<sup>2</sup>,........, where a is first term d is common difference and r is general ratio</li>
+                    <li>n<sup>th</sup>term = (a + (n - 1)d)r<sup>(n - 1)</sup></li>
+                    <li>Sum of n terms of a A.G.P. ( S<sub>n</sub> ) : <br><img src="AGP_Sum_n.png" width="500px" height =100px></li>
+                    <li>Sum of &infin; terms of a A.G.P. ( S<sub>&infin;</sub> ) : <br><img src="AGP_Sum_inf.png" width="550px" height =100px></li>
+                </ul>
+            </details>
+            </li>
+            <li class="formula"><details><summary>Sigma Notations</summary>
+                <img src="sigma.png" height="400px" width="500px">
+            </details>
+            </li>
+            <li class="formula">Some important results : <br><img src="imp_res_seq_ser.png" width =1000px height="500px"></li>
+        </ul>
+    </i>
+    <br>
+    <hr><hr>
+    <br>
+</body>
+</html>

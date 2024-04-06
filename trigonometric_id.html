@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Book</title>
+    <link rel="icon" href="icon.png"type="image/x-icon">
+    <link rel="stylesheet" href="style.css" class="css" id="style">
+    <script src="main.js"></script>
+</head>
+<body onload="closeNav(); landscape()" class="main">
+    <span onclick="openNav()" id="menu"><b>☰</b></span>
+    <div class="navbar" id="navbar">
+    <div class="nav">
+        <ul class="nav" id="nav">
+          <li class="nav" id="close"><a href="javascript:void(0)" class="closebtn nav" onclick="closeNav()">×</a></li>
+          <li class="nav"><a class="nav" href="index.html">Home</u></a></li>
+          <li class="nav"><a class="nav active" href="math.html">Mathematics</a></li>
+          <li class="nav"><a class="nav" href="physics.html">Physics</a></li>
+          <li class="nav"><a class="nav" href="chemistry.html">Chemistry</a></li>
+          <li class="nav"><a class="nav" href="contact.html">Contact Us</a></li>
+          <li class="nav"><a class="nav" href="about.html">About Us</a></li>
+          <li class="nav"><a class="nav" href="profile.html">My Profile</a></li>
+        </ul>
+    </div>
+    <hr>
+    </div>
+    </body>
+    <i>
+        <br><br><ul class="formula">
+            <li class="formula">Multiple inverses:
+                <ul>
+                    <li>sin&theta; . cosec&theta; = 1</li>
+                    <li>cos&theta; . sec&theta; = 1</li>
+                    <li>cot&theta; . tan&theta; = 1</li>
+                </ul>
+            </li>
+            <li class="formula">tan&theta; = <sup>sin&theta;</sup>&frasl;<sub>cos&theta;</sub></li>
+            <li class="formula">sin<sup>2</sup>&theta; + cos<sup>2</sup>&theta; = 1</li>
+            <li class="formula">sec<sup>2</sup>&theta; - tan<sup>2</sup>&theta; = 1</li>
+            <li class="formula">cosec<sup>2</sup>&theta; - cot<sup>2</sup>&theta; = 1</li>
+            <li class="formula"><img src="sec+tan.png" width="400px" height="100px"></li>
+            <li class="formula"><img src="cosec+cot.png" width="400px" height="100px"></li>
+            <li class="formula"><table width="700px">
+                <tr>
+                    <th>Function</th>
+                    <th>0</th>
+                    <th><sup>&pi;</sup>&frasl;<sub>6</sub></th>
+                    <th><sup>&pi;</sup>&frasl;<sub>4</sub></th>
+                    <th><sup>&pi;</sup>&frasl;<sub>3</sub></th>
+                    <th><sup>&pi;</sup>&frasl;<sub>2</sub></th>
+                </tr>
+                <tr>
+                    <th>sin&theta;</th>
+                    <td>0</td>
+                    <td><sup>1</sup>&frasl;<sub>2</sub></td>
+                    <td><sup>1</sup>&frasl;<sub>&radic;2</sub></td>
+                    <td><sup>&radic;3</sup>&frasl;<sub>2</sub></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th>cos&theta;</th>
+                    <td>1</td>
+                    <td><sup>&radic;3</sup>&frasl;<sub>2</sub></td>
+                    <td><sup>1</sup>&frasl;<sub>&radic;2</sub></td>
+                    <td><sup>1</sup>&frasl;<sub>2</sub></td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th>tan&theta;</th>
+                    <td>0</td>
+                    <td><sup>1</sup>&frasl;<sub>&radic;3</sub></td>
+                    <td>1</td>
+                    <td>&radic;3</td>
+                    <td>&infin;</td>
+                </tr>
+            </table></li>
+            <li class="formula">sin(A + B) = sinA . cosB + cosA . sinB</li>
+            <li class="formula">cos(A + B) = cosA . cosB - sinA . sinB</li>
+            <li class="formula"><img src="tan(a+b).png" width="500px" height="100px"></li>
+            <li class="formula"><img src="cot(a+b).png" width="500px" height="150px"></li>
+            <li class="formula">sin(A - B) = sinA . cosB - cosA . sinB</li>
+            <li class="formula">cos(A - B) = cosA . cosB + sinA . sinB</li>
+            <li class="formula"><img src="tan(a-b).png" width="500px" height="150px"></li>
+            <li class="formula"><img src="cot(a-b).png" width="500px" height="125px"></li>
+            <li class="formula">2 sinA cosB = sin(A + B) + sin(A - B)</li>
+            <li class="formula">2 cosA sinB = sin(A + B) - sin(A - B)</li>
+            <li class="formula">2 cosA cosB = cos(A + B) + cos(A - B)</li>
+            <li class="formula">2 sinA sinB = cos(A - B) - cos(A + B)</li>
+            <li class="formula">sinC + sinD = 2 sin[ <sup>( C + D )</sup>&frasl;<sub>2</sub> ] cos[ <sup>( C - D )</sup>&frasl;<sub>2</sub> ]</li>
+            <li class="formula">sinC - sinD = 2 cos[ <sup>( C + D )</sup>&frasl;<sub>2</sub> ] sin[ <sup>( C - D )</sup>&frasl;<sub>2</sub> ]</li>
+            <li class="formula">cosC + cosD = 2 cos[ <sup>( C + D )</sup>&frasl;<sub>2</sub> ] cos[ <sup>( C - D )</sup>&frasl;<sub>2</sub> ]</li>
+            <li class="formula">cosC - cosD = 2 sin[ <sup>( C + D )</sup>&frasl;<sub>2</sub> ] sin[ <sup>( D - C )</sup>&frasl;<sub>2</sub> ]</li>
+            <li class="formula">sin(A + B + C) <br>= sinA cosB cosC + cosA sinB cosC + cosA cosB sinC - sinA sinB sinC <br>= &sum; sinA cosB cosC - &prod; sinA <br>= cosA cosB cosC [tanA + tanB + tanC - tanA tanB tanC]</li>
+            <li class="formula">cos(A + B + C) <br>= cosA cosB cosC - sinA sinB cosC + sinA cosB sinC - cosA sinB sinC <br>= &prod; cosA - &sum; sinA sinB cosC <br>= cosA cosB cosC [1 - tanA tanB - tanB tanC - tanC tanA]</li>
+            <li class="formula">sin in terms of 2&theta; :<br><img src="sin2A.png" width="375px" height="100px"></li>
+            <li class="formula">cos in terms of 2&theta; :<br><img src="cos2A.png" width="750px" height="100px"></li>
+            <li class="formula">tan in terms of 2&theta; :<br><img src="tan2A.png" width="250px" height="100px"></li>
+            <li class="formula">sin in terms of 3&theta; :<br>3sin&theta; - 4sin<sup>3</sup>&theta;</li>
+            <li class="formula">sin in terms of 3&theta; :<br>4cos<sup>3</sup>&theta; - 3cos&theta;</li>
+            <li class="formula">tan in terms of 3&theta; :<br><img src="tan3A.png" width="300px" height="100px"></li>
+            <li class="formula">Some more results:
+                <ul>
+                    <li>sin<sup>2</sup>A - sin<sup>2</sup>B = sin(A + B) . sin(A- B) = cos<sup>2</sup>B - cos<sup>2</sup>A</li>
+                    <li>cos<sup>2</sup>A - sin<sup>2</sup>B = cos(A + B) . cos(A- B)</li>
+                </ul>
+            </li>
+            <li class="formula">sin in terms of <sup>&theta;</sup>&frasl;<sub>2</sub></li>
+            <li class="formula">cos in terms of <sup>&theta;</sup>&frasl;<sub>2</sub></li>
+            <li class="formula">2sin<sup>&theta;</sup>&frasl;<sub>2</sub></li>
+            <li class="formula">2cos<sup>&theta;</sup>&frasl;<sub>2</sub></li>
+        </ul>
+    </i>
+</html>
